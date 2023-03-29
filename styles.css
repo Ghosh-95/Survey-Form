@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    background: linear-gradient(rgba(0, 0, 40, 0.8), rgba(0, 0, 40, 0.8)), url(https://cdn-media-1.freecodecamp.org/images/1*Z3SfTvHOfvZiz1mr7uOODA.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f3f3f3;
+}
+
+#title,
+#description {
+    margin: 0.1em auto;
+    text-align: center;
+}
+
+#title {
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#survey-form {
+    margin: 45px auto;
+    padding: 30px;
+    background: rgba(27, 27, 50, 0.6);
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+label {
+    display: block;
+    padding: 10px 0 0 0;
+}
+
+input,
+textarea,
+#dropdown,
+#submit {
+    display: block;
+    width: 100%;
+    margin: 12px 0 0 0;
+    min-height: 2em;
+    padding-left: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type="radio"] {
+    width: 4.8%;
+    ;
+    display: inline;
+    margin: 0 2px 0 0;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    width: 4.6%;
+    display: inline;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.box,
+.frnd,
+.fav {
+    margin-bottom: 5px;
+}
+
+#text,
+#im,
+#ball,
+#feat {
+    margin-top: 30px;
+}
+
+#role {
+    margin-top: -3px;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+#submit {
+    background-color: #37af65;
+    color: #f3f3f3;
+    padding: 10px;
+    font-size: 1.2rem;
+}
